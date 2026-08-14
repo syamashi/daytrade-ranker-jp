@@ -3,8 +3,9 @@ name: Update ranking
 on:
   workflow_dispatch:
   schedule:
-    # GitHub cron is UTC. 00:05-06:05 UTC = 09:05-15:05 JST.
-    - cron: "5 0-6 * * 1-5"
+    # GitHub cron is UTC. Runs shortly after each hourly observation in JST.
+    - cron: "5 0-2 * * 1-5"
+    - cron: "35 3-6 * * 1-5"
 
 permissions:
   contents: write
