@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-14 12:07 JST",
+  "generated_at": "2026-08-14 18:02 JST",
   "trading_days": 57,
   "samples": 3080,
   "trials": 3000,
@@ -29,22 +29,22 @@
     "annualized_sharpe": 4.17
   },
   "validation": {
-    "trades": 42,
-    "events": 20,
-    "avg_net_pct": 0.0528,
-    "win_rate_pct": 66.7,
-    "total_return_pct": 0.61,
-    "max_drawdown_pct": 1.96,
-    "annualized_sharpe": 1.82
+    "trades": 37,
+    "events": 18,
+    "avg_net_pct": -0.023,
+    "win_rate_pct": 62.2,
+    "total_return_pct": -0.58,
+    "max_drawdown_pct": 2.23,
+    "annualized_sharpe": -1.86
   },
   "test": {
-    "trades": 28,
+    "trades": 29,
     "events": 18,
-    "avg_net_pct": 0.0498,
-    "win_rate_pct": 57.1,
-    "total_return_pct": -0.37,
-    "max_drawdown_pct": 3.27,
-    "annualized_sharpe": -0.86
+    "avg_net_pct": 0.0438,
+    "win_rate_pct": 55.2,
+    "total_return_pct": -0.24,
+    "max_drawdown_pct": 3.14,
+    "annualized_sharpe": -0.53
   },
   "paper_ready": false,
   "errors": [],
