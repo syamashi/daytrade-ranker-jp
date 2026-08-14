@@ -1,0 +1,31 @@
+{
+  "announce": false,
+  "title": "取引なし 08/14 12:09",
+  "body": "通知条件を満たしていません。\n\n- 学習・検証・未使用テストの合格条件を満たしていません\n- コスト控除後の検証期待値 +0.053% が通知閾値 0.10% 未満です\n- 東証の連続取引時間外です\n- モデル評価値 0.529 が採用閾値 0.727 未満です",
+  "generated_at": "2026-08-14 12:09 JST",
+  "reasons": [
+    "学習・検証・未使用テストの合格条件を満たしていません",
+    "コスト控除後の検証期待値 +0.053% が通知閾値 0.10% 未満です",
+    "東証の連続取引時間外です",
+    "モデル評価値 0.529 が採用閾値 0.727 未満です"
+  ],
+  "candidate": {
+    "code": "7267",
+    "name": "本田技研工業",
+    "price": 1658.5,
+    "shares": 100,
+    "amount_yen": 165850,
+    "model_score": 0.5295,
+    "model_threshold": 0.727,
+    "expected_net_pct": 0.0528,
+    "reference_stop_price": 1645.0,
+    "reference_stop_pct": 0.82,
+    "time_window": "12:30以降に再判定"
+  },
+  "policy": {
+    "paper_capital_yen": 1000000,
+    "max_position_yen": 300000,
+    "min_expected_net_pct": 0.1,
+    "board_lot_shares": 100
+  }
+}

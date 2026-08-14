@@ -1,6 +1,11 @@
 import unittest
+from datetime import datetime
+from zoneinfo import ZoneInfo
 
-from ranker import contiguous_tail, flip_rate, percentiles, price_efficiency, same_time_relative_volume
+from ranker import (
+    build_recommendation, contiguous_tail, flip_rate, percentiles,
+    price_efficiency, same_time_relative_volume,
+)
 
 
 class FactorTests(unittest.TestCase):
@@ -29,6 +34,33 @@ class FactorTests(unittest.TestCase):
 
     def test_percentiles_handle_ties(self):
         self.assertEqual(percentiles([1.0, 2.0, 2.0, 4.0]), [0.0, 0.5, 0.5, 1.0])
+
+    def test_alert_requires_all_validation_gates(self):
+        row = {
+            "code": "9432", "name": "NTT", "price": 160.0,
+            "model_score": 0.8, "realized_vol": 0.5, "window_minutes": 60,
+        }
+        model = {
+            "paper_ready": False, "threshold": 0.7,
+            "validation": {"avg_net_pct": 0.2},
+        }
+        now = datetime(2026, 8, 14, 10, 5, tzinfo=ZoneInfo("Asia/Tokyo"))
+        self.assertFalse(build_recommendation([row], model, now)["announce"])
+
+    def test_alert_contains_stock_amount_and_time(self):
+        row = {
+            "code": "9432", "name": "NTT", "price": 160.0,
+            "model_score": 0.8, "realized_vol": 0.5, "window_minutes": 60,
+        }
+        model = {
+            "paper_ready": True, "threshold": 0.7,
+            "validation": {"avg_net_pct": 0.2},
+        }
+        now = datetime(2026, 8, 14, 10, 5, tzinfo=ZoneInfo("Asia/Tokyo"))
+        result = build_recommendation([row], model, now)
+        self.assertTrue(result["announce"])
+        self.assertEqual(result["candidate"]["amount_yen"], 16_000)
+        self.assertEqual(result["candidate"]["time_window"], "10:05〜10:20")
 
 
 if __name__ == "__main__":
