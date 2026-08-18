@@ -1,8 +1,8 @@
 {
   "announce": false,
-  "title": "取引なし 08/18 14:02",
+  "title": "取引なし 08/18 14:55",
   "body": "通知条件を満たしていません。\n\n- 学習・検証・未使用テストの合格条件を満たしていません\n- コスト控除後の検証期待値 +0.057% が通知閾値 0.10% 未満です",
-  "generated_at": "2026-08-18 14:02 JST",
+  "generated_at": "2026-08-18 14:55 JST",
   "reasons": [
     "学習・検証・未使用テストの合格条件を満たしていません",
     "コスト控除後の検証期待値 +0.057% が通知閾値 0.10% 未満です"
@@ -10,15 +10,15 @@
   "candidate": {
     "code": "5401",
     "name": "日本製鉄",
-    "price": 691.1,
+    "price": 693.4,
     "shares": 100,
-    "amount_yen": 69110,
-    "model_score": 0.6944,
+    "amount_yen": 69340,
+    "model_score": 0.6915,
     "model_threshold": 0.6096,
     "expected_net_pct": 0.0569,
-    "reference_stop_price": 686.3,
+    "reference_stop_price": 688.5,
     "reference_stop_pct": 0.7,
-    "time_window": "14:02〜14:17"
+    "time_window": "14:55〜15:10"
   },
   "policy": {
     "paper_capital_yen": 1000000,
