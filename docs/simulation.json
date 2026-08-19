@@ -1,56 +1,55 @@
 {
-  "generated_at": "2026-08-18 17:29 JST",
+  "generated_at": "2026-08-19 17:29 JST",
   "trading_days": 57,
-  "samples": 3138,
+  "samples": 3108,
   "trials": 3000,
   "cost_bps": 10.0,
   "top_k": 3,
-  "threshold": 0.6973,
+  "threshold": 0.741,
   "weights": {
-    "relative_strength": 0.0,
-    "momentum_15m": 0.0,
-    "relative_volume": 0.09613,
+    "relative_strength": 0.02806,
+    "momentum_15m": 0.02342,
+    "relative_volume": 0.23796,
     "range_position": 0.0,
-    "efficiency": 0.18469,
-    "low_flip": 0.08764,
-    "turnover": 0.22394,
+    "efficiency": 0.17014,
+    "low_flip": 0.0,
+    "turnover": 0.29258,
     "volatility_sweet": 0.0,
-    "negative_day": 0.18997,
-    "recovery": 0.16115,
-    "near_vwap": 0.05647
+    "negative_day": 0.18479,
+    "recovery": 0.04189,
+    "near_vwap": 0.02116
   },
   "train": {
-    "trades": 98,
-    "events": 55,
-    "avg_net_pct": 0.2009,
-    "win_rate_pct": 60.2,
-    "total_return_pct": 9.62,
-    "max_drawdown_pct": 2.34,
-    "annualized_sharpe": 7.13
+    "trades": 86,
+    "events": 52,
+    "avg_net_pct": 0.1506,
+    "win_rate_pct": 60.5,
+    "total_return_pct": 9.4,
+    "max_drawdown_pct": 1.43,
+    "annualized_sharpe": 7.66
   },
   "validation": {
-    "trades": 26,
-    "events": 16,
-    "avg_net_pct": -0.2225,
-    "win_rate_pct": 50.0,
-    "total_return_pct": -3.26,
-    "max_drawdown_pct": 3.26,
-    "annualized_sharpe": -7.89
+    "trades": 16,
+    "events": 9,
+    "avg_net_pct": 0.2488,
+    "win_rate_pct": 62.5,
+    "total_return_pct": 1.49,
+    "max_drawdown_pct": 3.5,
+    "annualized_sharpe": 3.19
   },
   "test": {
-    "trades": 24,
+    "trades": 23,
     "events": 15,
-    "avg_net_pct": 0.0129,
-    "win_rate_pct": 50.0,
-    "total_return_pct": -0.15,
-    "max_drawdown_pct": 2.03,
-    "annualized_sharpe": -0.28
+    "avg_net_pct": -0.0608,
+    "win_rate_pct": 39.1,
+    "total_return_pct": 0.21,
+    "max_drawdown_pct": 2.61,
+    "annualized_sharpe": 0.59
   },
   "paper_ready": false,
   "errors": [],
   "split": {
     "train": [
-      "2026-05-28",
       "2026-05-29",
       "2026-06-01",
       "2026-06-02",
@@ -83,10 +82,10 @@
       "2026-07-09",
       "2026-07-10",
       "2026-07-13",
-      "2026-07-14"
+      "2026-07-14",
+      "2026-07-15"
     ],
     "validation": [
-      "2026-07-15",
       "2026-07-16",
       "2026-07-17",
       "2026-07-21",
@@ -96,10 +95,10 @@
       "2026-07-27",
       "2026-07-28",
       "2026-07-29",
-      "2026-07-30"
+      "2026-07-30",
+      "2026-07-31"
     ],
     "test": [
-      "2026-07-31",
       "2026-08-03",
       "2026-08-04",
       "2026-08-05",
@@ -110,7 +109,8 @@
       "2026-08-13",
       "2026-08-14",
       "2026-08-17",
-      "2026-08-18"
+      "2026-08-18",
+      "2026-08-19"
     ]
   }
 }
