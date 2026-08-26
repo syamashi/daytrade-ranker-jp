@@ -1,56 +1,55 @@
 {
-  "generated_at": "2026-08-25 17:35 JST",
+  "generated_at": "2026-08-26 17:36 JST",
   "trading_days": 57,
-  "samples": 3055,
+  "samples": 3056,
   "trials": 3000,
   "cost_bps": 10.0,
   "top_k": 3,
-  "threshold": 0.6311,
+  "threshold": 0.7175,
   "weights": {
-    "relative_strength": 0.0,
+    "relative_strength": 0.04484,
     "momentum_15m": 0.0,
-    "relative_volume": 0.22707,
+    "relative_volume": 0.28222,
     "range_position": 0.0,
-    "efficiency": 0.12803,
-    "low_flip": 0.21484,
-    "turnover": 0.15245,
-    "volatility_sweet": 0.0,
-    "negative_day": 0.12036,
-    "recovery": 0.15725,
+    "efficiency": 0.12044,
+    "low_flip": 0.01832,
+    "turnover": 0.22561,
+    "volatility_sweet": 0.05728,
+    "negative_day": 0.18222,
+    "recovery": 0.06907,
     "near_vwap": 0.0
   },
   "train": {
-    "trades": 192,
-    "events": 66,
-    "avg_net_pct": 0.0225,
-    "win_rate_pct": 49.0,
-    "total_return_pct": 1.58,
-    "max_drawdown_pct": 3.3,
-    "annualized_sharpe": 1.3
+    "trades": 104,
+    "events": 60,
+    "avg_net_pct": 0.0691,
+    "win_rate_pct": 58.7,
+    "total_return_pct": 7.4,
+    "max_drawdown_pct": 2.4,
+    "annualized_sharpe": 5.45
   },
   "validation": {
-    "trades": 56,
-    "events": 20,
-    "avg_net_pct": -0.0192,
-    "win_rate_pct": 46.4,
-    "total_return_pct": -0.39,
-    "max_drawdown_pct": 2.7,
-    "annualized_sharpe": -1.12
+    "trades": 30,
+    "events": 16,
+    "avg_net_pct": 0.0453,
+    "win_rate_pct": 43.3,
+    "total_return_pct": -0.99,
+    "max_drawdown_pct": 3.31,
+    "annualized_sharpe": -2.64
   },
   "test": {
-    "trades": 65,
-    "events": 23,
-    "avg_net_pct": -0.0576,
-    "win_rate_pct": 46.2,
-    "total_return_pct": -0.71,
-    "max_drawdown_pct": 3.47,
-    "annualized_sharpe": -1.95
+    "trades": 28,
+    "events": 14,
+    "avg_net_pct": -0.2192,
+    "win_rate_pct": 28.6,
+    "total_return_pct": -3.37,
+    "max_drawdown_pct": 3.88,
+    "annualized_sharpe": -14.91
   },
   "paper_ready": false,
   "errors": [],
   "split": {
     "train": [
-      "2026-06-04",
       "2026-06-05",
       "2026-06-08",
       "2026-06-09",
@@ -83,10 +82,10 @@
       "2026-07-16",
       "2026-07-17",
       "2026-07-21",
-      "2026-07-22"
+      "2026-07-22",
+      "2026-07-23"
     ],
     "validation": [
-      "2026-07-23",
       "2026-07-24",
       "2026-07-27",
       "2026-07-28",
@@ -96,10 +95,10 @@
       "2026-08-03",
       "2026-08-04",
       "2026-08-05",
-      "2026-08-06"
+      "2026-08-06",
+      "2026-08-07"
     ],
     "test": [
-      "2026-08-07",
       "2026-08-10",
       "2026-08-12",
       "2026-08-13",
@@ -110,7 +109,8 @@
       "2026-08-20",
       "2026-08-21",
       "2026-08-24",
-      "2026-08-25"
+      "2026-08-25",
+      "2026-08-26"
     ]
   }
 }
