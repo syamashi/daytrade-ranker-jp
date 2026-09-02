@@ -1,58 +1,55 @@
 {
-  "generated_at": "2026-09-01 21:58 JST",
+  "generated_at": "2026-09-02 21:27 JST",
   "trading_days": 57,
-  "samples": 2988,
+  "samples": 3090,
   "trials": 3000,
   "cost_bps": 10.0,
   "top_k": 3,
-  "threshold": 0.7125,
+  "threshold": 0.6141,
   "weights": {
     "relative_strength": 0.0,
-    "momentum_15m": 0.14857,
-    "relative_volume": 0.20175,
-    "range_position": 0.0,
-    "efficiency": 0.17404,
-    "low_flip": 0.04626,
-    "turnover": 0.24817,
-    "volatility_sweet": 0.06502,
-    "negative_day": 0.09682,
-    "recovery": 0.0,
-    "near_vwap": 0.01937
+    "momentum_15m": 0.0,
+    "relative_volume": 0.17962,
+    "range_position": 0.04186,
+    "efficiency": 0.12505,
+    "low_flip": 0.08914,
+    "turnover": 0.09163,
+    "volatility_sweet": 0.19444,
+    "negative_day": 0.12811,
+    "recovery": 0.15016,
+    "near_vwap": 0.0
   },
   "train": {
-    "trades": 105,
-    "events": 58,
-    "avg_net_pct": 0.0726,
-    "win_rate_pct": 61.9,
-    "total_return_pct": 7.0,
-    "max_drawdown_pct": 2.02,
-    "annualized_sharpe": 5.18
+    "trades": 198,
+    "events": 67,
+    "avg_net_pct": 0.0459,
+    "win_rate_pct": 54.5,
+    "total_return_pct": 3.05,
+    "max_drawdown_pct": 3.31,
+    "annualized_sharpe": 2.85
   },
   "validation": {
-    "trades": 28,
-    "events": 18,
-    "avg_net_pct": 0.052,
-    "win_rate_pct": 53.6,
-    "total_return_pct": 1.57,
-    "max_drawdown_pct": 2.39,
-    "annualized_sharpe": 4.19
+    "trades": 56,
+    "events": 19,
+    "avg_net_pct": 0.0564,
+    "win_rate_pct": 60.7,
+    "total_return_pct": 1.32,
+    "max_drawdown_pct": 1.47,
+    "annualized_sharpe": 4.6
   },
   "test": {
-    "trades": 28,
-    "events": 16,
-    "avg_net_pct": -0.2544,
-    "win_rate_pct": 25.0,
-    "total_return_pct": -3.72,
-    "max_drawdown_pct": 3.72,
-    "annualized_sharpe": -12.38
+    "trades": 63,
+    "events": 23,
+    "avg_net_pct": -0.1887,
+    "win_rate_pct": 34.9,
+    "total_return_pct": -3.14,
+    "max_drawdown_pct": 3.14,
+    "annualized_sharpe": -8.11
   },
   "paper_ready": false,
-  "errors": [
-    "8766: HTTP Error 400: Bad Request"
-  ],
+  "errors": [],
   "split": {
     "train": [
-      "2026-06-11",
       "2026-06-12",
       "2026-06-15",
       "2026-06-16",
@@ -85,10 +82,10 @@
       "2026-07-24",
       "2026-07-27",
       "2026-07-28",
-      "2026-07-29"
+      "2026-07-29",
+      "2026-07-30"
     ],
     "validation": [
-      "2026-07-30",
       "2026-07-31",
       "2026-08-03",
       "2026-08-04",
@@ -98,10 +95,10 @@
       "2026-08-10",
       "2026-08-12",
       "2026-08-13",
-      "2026-08-14"
+      "2026-08-14",
+      "2026-08-17"
     ],
     "test": [
-      "2026-08-17",
       "2026-08-18",
       "2026-08-19",
       "2026-08-20",
@@ -112,7 +109,8 @@
       "2026-08-27",
       "2026-08-28",
       "2026-08-31",
-      "2026-09-01"
+      "2026-09-01",
+      "2026-09-02"
     ]
   }
 }
