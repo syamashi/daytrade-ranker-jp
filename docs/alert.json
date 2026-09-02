@@ -1,25 +1,25 @@
 {
   "announce": false,
-  "title": "取引なし 09/01 17:50",
-  "body": "通知条件を満たしていません。\n\n- 学習・検証・未使用テストの合格条件を満たしていません\n- コスト控除後の検証期待値 +0.021% が通知閾値 0.10% 未満です\n- 東証の連続取引時間外です",
-  "generated_at": "2026-09-01 17:50 JST",
+  "title": "取引なし 09/02 13:16",
+  "body": "通知条件を満たしていません。\n\n- 学習・検証・未使用テストの合格条件を満たしていません\n- コスト控除後の検証期待値 +0.052% が通知閾値 0.10% 未満です\n- モデル評価値 0.513 が採用閾値 0.713 未満です",
+  "generated_at": "2026-09-02 13:16 JST",
   "reasons": [
     "学習・検証・未使用テストの合格条件を満たしていません",
-    "コスト控除後の検証期待値 +0.021% が通知閾値 0.10% 未満です",
-    "東証の連続取引時間外です"
+    "コスト控除後の検証期待値 +0.052% が通知閾値 0.10% 未満です",
+    "モデル評価値 0.513 が採用閾値 0.713 未満です"
   ],
   "candidate": {
     "code": "5401",
     "name": "日本製鉄",
-    "price": 700.3,
+    "price": 685.2,
     "shares": 100,
-    "amount_yen": 70030,
-    "model_score": 0.6543,
-    "model_threshold": 0.5261,
-    "expected_net_pct": 0.0205,
-    "reference_stop_price": 693.4,
-    "reference_stop_pct": 0.99,
-    "time_window": "翌営業日09:00以降に再判定"
+    "amount_yen": 68520,
+    "model_score": 0.5127,
+    "model_threshold": 0.7125,
+    "expected_net_pct": 0.052,
+    "reference_stop_price": 680.4,
+    "reference_stop_pct": 0.7,
+    "time_window": "13:16〜13:31"
   },
   "policy": {
     "paper_capital_yen": 1000000,
