@@ -1,25 +1,24 @@
 {
   "announce": false,
-  "title": "取引なし 09/28 19:04",
-  "body": "通知条件を満たしていません。\n\n- 学習・検証・未使用テストの合格条件を満たしていません\n- コスト控除後の検証期待値 -0.093% が通知閾値 0.10% 未満です\n- 東証の連続取引時間外です",
-  "generated_at": "2026-09-28 19:04 JST",
+  "title": "取引なし 09/29 14:33",
+  "body": "通知条件を満たしていません。\n\n- 学習・検証・未使用テストの合格条件を満たしていません\n- コスト控除後の検証期待値 -0.045% が通知閾値 0.10% 未満です",
+  "generated_at": "2026-09-29 14:33 JST",
   "reasons": [
     "学習・検証・未使用テストの合格条件を満たしていません",
-    "コスト控除後の検証期待値 -0.093% が通知閾値 0.10% 未満です",
-    "東証の連続取引時間外です"
+    "コスト控除後の検証期待値 -0.045% が通知閾値 0.10% 未満です"
   ],
   "candidate": {
-    "code": "4568",
-    "name": "第一三共",
-    "price": 2830.0,
+    "code": "8766",
+    "name": "東京海上ホールディングス",
+    "price": 525.1,
     "shares": 100,
-    "amount_yen": 283000,
-    "model_score": 0.8204,
-    "model_threshold": 0.7334,
-    "expected_net_pct": -0.0929,
-    "reference_stop_price": 2810.2,
+    "amount_yen": 52510,
+    "model_score": 0.6788,
+    "model_threshold": 0.6365,
+    "expected_net_pct": -0.0447,
+    "reference_stop_price": 521.4,
     "reference_stop_pct": 0.7,
-    "time_window": "翌営業日09:00以降に再判定"
+    "time_window": "14:33〜14:48"
   },
   "policy": {
     "paper_capital_yen": 1000000,
