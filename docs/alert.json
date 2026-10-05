@@ -1,25 +1,24 @@
 {
   "announce": false,
-  "title": "取引なし 10/02 18:59",
-  "body": "通知条件を満たしていません。\n\n- 学習・検証・未使用テストの合格条件を満たしていません\n- コスト控除後の検証期待値 -0.107% が通知閾値 0.10% 未満です\n- 東証の連続取引時間外です",
-  "generated_at": "2026-10-02 18:59 JST",
+  "title": "取引なし 10/05 14:23",
+  "body": "通知条件を満たしていません。\n\n- 学習・検証・未使用テストの合格条件を満たしていません\n- コスト控除後の検証期待値 -0.098% が通知閾値 0.10% 未満です",
+  "generated_at": "2026-10-05 14:23 JST",
   "reasons": [
     "学習・検証・未使用テストの合格条件を満たしていません",
-    "コスト控除後の検証期待値 -0.107% が通知閾値 0.10% 未満です",
-    "東証の連続取引時間外です"
+    "コスト控除後の検証期待値 -0.098% が通知閾値 0.10% 未満です"
   ],
   "candidate": {
-    "code": "7203",
-    "name": "トヨタ自動車",
-    "price": 2856.5,
+    "code": "7267",
+    "name": "本田技研工業",
+    "price": 1661.0,
     "shares": 100,
-    "amount_yen": 285650,
-    "model_score": 0.6796,
-    "model_threshold": 0.6433,
-    "expected_net_pct": -0.1068,
-    "reference_stop_price": 2835.5,
-    "reference_stop_pct": 0.74,
-    "time_window": "翌営業日09:00以降に再判定"
+    "amount_yen": 166100,
+    "model_score": 0.7535,
+    "model_threshold": 0.632,
+    "expected_net_pct": -0.0977,
+    "reference_stop_price": 1649.4,
+    "reference_stop_pct": 0.7,
+    "time_window": "14:23〜14:38"
   },
   "policy": {
     "paper_capital_yen": 1000000,
