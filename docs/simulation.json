@@ -1,56 +1,55 @@
 {
-  "generated_at": "2026-10-06 01:42 JST",
+  "generated_at": "2026-10-06 23:40 JST",
   "trading_days": 57,
-  "samples": 3053,
+  "samples": 3054,
   "trials": 3000,
   "cost_bps": 10.0,
   "top_k": 3,
-  "threshold": 0.7418,
+  "threshold": 0.7631,
   "weights": {
-    "relative_strength": 0.03314,
-    "momentum_15m": 0.08887,
-    "relative_volume": 0.31574,
-    "range_position": 0.00388,
-    "efficiency": 0.17599,
-    "low_flip": 0.0,
+    "relative_strength": 0.02146,
+    "momentum_15m": 0.08639,
+    "relative_volume": 0.28792,
+    "range_position": 0.0,
+    "efficiency": 0.22508,
+    "low_flip": 0.00309,
     "turnover": 0.0,
-    "volatility_sweet": 0.23686,
-    "negative_day": 0.03092,
-    "recovery": 0.03357,
-    "near_vwap": 0.08104
+    "volatility_sweet": 0.2941,
+    "negative_day": 0.0,
+    "recovery": 0.04418,
+    "near_vwap": 0.03778
   },
   "train": {
-    "trades": 80,
-    "events": 46,
-    "avg_net_pct": 0.213,
-    "win_rate_pct": 71.2,
-    "total_return_pct": 11.99,
+    "trades": 81,
+    "events": 45,
+    "avg_net_pct": 0.1776,
+    "win_rate_pct": 69.1,
+    "total_return_pct": 10.08,
     "max_drawdown_pct": 1.32,
-    "annualized_sharpe": 16.59
+    "annualized_sharpe": 13.69
   },
   "validation": {
-    "trades": 25,
-    "events": 17,
-    "avg_net_pct": -0.1686,
-    "win_rate_pct": 36.0,
-    "total_return_pct": -2.78,
-    "max_drawdown_pct": 2.78,
-    "annualized_sharpe": -10.65
+    "trades": 29,
+    "events": 20,
+    "avg_net_pct": -0.1379,
+    "win_rate_pct": 34.5,
+    "total_return_pct": -1.63,
+    "max_drawdown_pct": 3.47,
+    "annualized_sharpe": -4.15
   },
   "test": {
-    "trades": 26,
-    "events": 16,
-    "avg_net_pct": -0.1253,
-    "win_rate_pct": 30.8,
-    "total_return_pct": -0.9,
-    "max_drawdown_pct": 2.72,
-    "annualized_sharpe": -3.24
+    "trades": 28,
+    "events": 17,
+    "avg_net_pct": -0.1119,
+    "win_rate_pct": 39.3,
+    "total_return_pct": -2.35,
+    "max_drawdown_pct": 2.5,
+    "annualized_sharpe": -15.55
   },
   "paper_ready": false,
   "errors": [],
   "split": {
     "train": [
-      "2026-07-10",
       "2026-07-13",
       "2026-07-14",
       "2026-07-15",
@@ -83,10 +82,10 @@
       "2026-08-25",
       "2026-08-26",
       "2026-08-27",
-      "2026-08-28"
+      "2026-08-28",
+      "2026-08-31"
     ],
     "validation": [
-      "2026-08-31",
       "2026-09-01",
       "2026-09-02",
       "2026-09-03",
@@ -96,10 +95,10 @@
       "2026-09-09",
       "2026-09-10",
       "2026-09-11",
-      "2026-09-14"
+      "2026-09-14",
+      "2026-09-15"
     ],
     "test": [
-      "2026-09-15",
       "2026-09-16",
       "2026-09-17",
       "2026-09-18",
@@ -110,7 +109,8 @@
       "2026-09-30",
       "2026-10-01",
       "2026-10-02",
-      "2026-10-05"
+      "2026-10-05",
+      "2026-10-06"
     ]
   }
 }
