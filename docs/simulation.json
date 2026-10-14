@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-10-14 00:30 JST",
-  "trading_days": 55,
-  "samples": 2904,
+  "generated_at": "2026-10-14 22:15 JST",
+  "trading_days": 56,
+  "samples": 2962,
   "trials": 3000,
   "cost_bps": 10.0,
   "top_k": 3,
@@ -38,13 +38,13 @@
     "annualized_sharpe": -13.78
   },
   "test": {
-    "trades": 64,
-    "events": 22,
-    "avg_net_pct": -0.0498,
-    "win_rate_pct": 51.6,
-    "total_return_pct": -1.12,
-    "max_drawdown_pct": 1.39,
-    "annualized_sharpe": -4.14
+    "trades": 70,
+    "events": 24,
+    "avg_net_pct": -0.1133,
+    "win_rate_pct": 47.1,
+    "total_return_pct": -2.68,
+    "max_drawdown_pct": 2.68,
+    "annualized_sharpe": -7.77
   },
   "paper_ready": false,
   "errors": [],
@@ -108,7 +108,8 @@
       "2026-10-07",
       "2026-10-08",
       "2026-10-09",
-      "2026-10-13"
+      "2026-10-13",
+      "2026-10-14"
     ]
   }
 }
