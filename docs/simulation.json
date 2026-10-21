@@ -1,56 +1,55 @@
 {
-  "generated_at": "2026-10-20 22:13 JST",
+  "generated_at": "2026-10-21 22:21 JST",
   "trading_days": 57,
-  "samples": 3043,
+  "samples": 3042,
   "trials": 3000,
   "cost_bps": 10.0,
   "top_k": 3,
-  "threshold": 0.6181,
+  "threshold": 0.6046,
   "weights": {
-    "relative_strength": 0.0,
+    "relative_strength": 0.00605,
     "momentum_15m": 0.0,
-    "relative_volume": 0.39895,
+    "relative_volume": 0.45664,
     "range_position": 0.0,
-    "efficiency": 0.07861,
+    "efficiency": 0.15291,
     "low_flip": 0.0,
-    "turnover": 0.08416,
-    "volatility_sweet": 0.29461,
+    "turnover": 0.01314,
+    "volatility_sweet": 0.2816,
     "negative_day": 0.0,
-    "recovery": 0.00139,
-    "near_vwap": 0.14227
+    "recovery": 0.0,
+    "near_vwap": 0.08966
   },
   "train": {
-    "trades": 186,
+    "trades": 187,
     "events": 65,
-    "avg_net_pct": 0.0871,
-    "win_rate_pct": 50.0,
-    "total_return_pct": 6.68,
-    "max_drawdown_pct": 1.6,
-    "annualized_sharpe": 7.12
+    "avg_net_pct": 0.0735,
+    "win_rate_pct": 49.7,
+    "total_return_pct": 5.05,
+    "max_drawdown_pct": 2.1,
+    "annualized_sharpe": 5.45
   },
   "validation": {
     "trades": 63,
     "events": 21,
-    "avg_net_pct": -0.0819,
-    "win_rate_pct": 36.5,
-    "total_return_pct": -1.74,
-    "max_drawdown_pct": 2.64,
-    "annualized_sharpe": -3.98
+    "avg_net_pct": -0.0624,
+    "win_rate_pct": 38.1,
+    "total_return_pct": -1.33,
+    "max_drawdown_pct": 3.24,
+    "annualized_sharpe": -3.39
   },
   "test": {
     "trades": 70,
     "events": 24,
-    "avg_net_pct": -0.0859,
-    "win_rate_pct": 51.4,
-    "total_return_pct": -2.06,
-    "max_drawdown_pct": 2.22,
-    "annualized_sharpe": -5.51
+    "avg_net_pct": -0.1198,
+    "win_rate_pct": 41.4,
+    "total_return_pct": -2.82,
+    "max_drawdown_pct": 3.09,
+    "annualized_sharpe": -9.71
   },
   "paper_ready": false,
   "errors": [],
   "split": {
     "train": [
-      "2026-07-27",
       "2026-07-28",
       "2026-07-29",
       "2026-07-30",
@@ -83,10 +82,10 @@
       "2026-09-08",
       "2026-09-09",
       "2026-09-10",
-      "2026-09-11"
+      "2026-09-11",
+      "2026-09-14"
     ],
     "validation": [
-      "2026-09-14",
       "2026-09-15",
       "2026-09-16",
       "2026-09-17",
@@ -96,10 +95,10 @@
       "2026-09-28",
       "2026-09-29",
       "2026-09-30",
-      "2026-10-01"
+      "2026-10-01",
+      "2026-10-02"
     ],
     "test": [
-      "2026-10-02",
       "2026-10-05",
       "2026-10-06",
       "2026-10-07",
@@ -110,7 +109,8 @@
       "2026-10-15",
       "2026-10-16",
       "2026-10-19",
-      "2026-10-20"
+      "2026-10-20",
+      "2026-10-21"
     ]
   }
 }
