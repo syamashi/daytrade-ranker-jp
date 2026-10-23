@@ -1,25 +1,24 @@
 {
   "announce": false,
-  "title": "取引なし 10/22 17:50",
-  "body": "通知条件を満たしていません。\n\n- 学習・検証・未使用テストの合格条件を満たしていません\n- コスト控除後の検証期待値 -0.062% が通知閾値 0.10% 未満です\n- 東証の連続取引時間外です",
-  "generated_at": "2026-10-22 17:50 JST",
+  "title": "取引なし 10/23 13:32",
+  "body": "通知条件を満たしていません。\n\n- 学習・検証・未使用テストの合格条件を満たしていません\n- コスト控除後の検証期待値 -0.152% が通知閾値 0.10% 未満です",
+  "generated_at": "2026-10-23 13:32 JST",
   "reasons": [
     "学習・検証・未使用テストの合格条件を満たしていません",
-    "コスト控除後の検証期待値 -0.062% が通知閾値 0.10% 未満です",
-    "東証の連続取引時間外です"
+    "コスト控除後の検証期待値 -0.152% が通知閾値 0.10% 未満です"
   ],
   "candidate": {
-    "code": "8766",
-    "name": "東京海上ホールディングス",
-    "price": 571.1,
+    "code": "6902",
+    "name": "デンソー",
+    "price": 1861.5,
     "shares": 100,
-    "amount_yen": 57110,
-    "model_score": 0.6464,
-    "model_threshold": 0.6046,
-    "expected_net_pct": -0.0624,
-    "reference_stop_price": 567.1,
+    "amount_yen": 186150,
+    "model_score": 0.7064,
+    "model_threshold": 0.6911,
+    "expected_net_pct": -0.1524,
+    "reference_stop_price": 1848.5,
     "reference_stop_pct": 0.7,
-    "time_window": "翌営業日09:00以降に再判定"
+    "time_window": "13:32〜13:47"
   },
   "policy": {
     "paper_capital_yen": 1000000,
