@@ -1,25 +1,24 @@
 {
   "announce": false,
-  "title": "取引なし 10/26 18:15",
-  "body": "通知条件を満たしていません。\n\n- 学習・検証・未使用テストの合格条件を満たしていません\n- コスト控除後の検証期待値 -0.079% が通知閾値 0.10% 未満です\n- 東証の連続取引時間外です",
-  "generated_at": "2026-10-26 18:15 JST",
+  "title": "取引なし 10/27 13:49",
+  "body": "通知条件を満たしていません。\n\n- 学習・検証・未使用テストの合格条件を満たしていません\n- コスト控除後の検証期待値 -0.105% が通知閾値 0.10% 未満です",
+  "generated_at": "2026-10-27 13:49 JST",
   "reasons": [
     "学習・検証・未使用テストの合格条件を満たしていません",
-    "コスト控除後の検証期待値 -0.079% が通知閾値 0.10% 未満です",
-    "東証の連続取引時間外です"
+    "コスト控除後の検証期待値 -0.105% が通知閾値 0.10% 未満です"
   ],
   "candidate": {
-    "code": "9432",
-    "name": "NTT",
-    "price": 176.4,
+    "code": "8766",
+    "name": "東京海上ホールディングス",
+    "price": 578.6,
     "shares": 100,
-    "amount_yen": 17640,
-    "model_score": 0.6714,
-    "model_threshold": 0.5934,
-    "expected_net_pct": -0.0789,
-    "reference_stop_price": 175.1,
-    "reference_stop_pct": 0.72,
-    "time_window": "翌営業日09:00以降に再判定"
+    "amount_yen": 57860,
+    "model_score": 0.7754,
+    "model_threshold": 0.6055,
+    "expected_net_pct": -0.105,
+    "reference_stop_price": 574.5,
+    "reference_stop_pct": 0.7,
+    "time_window": "13:49〜14:04"
   },
   "policy": {
     "paper_capital_yen": 1000000,
