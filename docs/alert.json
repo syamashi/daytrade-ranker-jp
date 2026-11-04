@@ -1,25 +1,24 @@
 {
   "announce": false,
-  "title": "取引なし 11/03 20:12",
-  "body": "通知条件を満たしていません。\n\n- 学習・検証・未使用テストの合格条件を満たしていません\n- コスト控除後の検証期待値 -0.196% が通知閾値 0.10% 未満です\n- 東証の連続取引時間外です",
-  "generated_at": "2026-11-03 20:12 JST",
+  "title": "取引なし 11/04 14:59",
+  "body": "通知条件を満たしていません。\n\n- 学習・検証・未使用テストの合格条件を満たしていません\n- コスト控除後の検証期待値 -0.173% が通知閾値 0.10% 未満です",
+  "generated_at": "2026-11-04 14:59 JST",
   "reasons": [
     "学習・検証・未使用テストの合格条件を満たしていません",
-    "コスト控除後の検証期待値 -0.196% が通知閾値 0.10% 未満です",
-    "東証の連続取引時間外です"
+    "コスト控除後の検証期待値 -0.173% が通知閾値 0.10% 未満です"
   ],
   "candidate": {
-    "code": "7267",
-    "name": "本田技研工業",
-    "price": 1799.0,
+    "code": "8001",
+    "name": "伊藤忠商事",
+    "price": 2263.5,
     "shares": 100,
-    "amount_yen": 179900,
-    "model_score": 0.7335,
-    "model_threshold": 0.7174,
-    "expected_net_pct": -0.1956,
-    "reference_stop_price": 1784.0,
-    "reference_stop_pct": 0.83,
-    "time_window": "翌営業日09:00以降に再判定"
+    "amount_yen": 226350,
+    "model_score": 0.791,
+    "model_threshold": 0.5789,
+    "expected_net_pct": -0.1727,
+    "reference_stop_price": 2235.7,
+    "reference_stop_pct": 1.23,
+    "time_window": "14:59〜15:14"
   },
   "policy": {
     "paper_capital_yen": 1000000,
