@@ -1,8 +1,8 @@
 {
   "announce": false,
-  "title": "取引なし 11/06 15:20",
+  "title": "取引なし 11/06 20:20",
   "body": "通知条件を満たしていません。\n\n- 学習・検証・未使用テストの合格条件を満たしていません\n- コスト控除後の検証期待値 -0.167% が通知閾値 0.10% 未満です\n- 東証の連続取引時間外です",
-  "generated_at": "2026-11-06 15:20 JST",
+  "generated_at": "2026-11-06 20:20 JST",
   "reasons": [
     "学習・検証・未使用テストの合格条件を満たしていません",
     "コスト控除後の検証期待値 -0.167% が通知閾値 0.10% 未満です",
@@ -11,13 +11,13 @@
   "candidate": {
     "code": "7011",
     "name": "三菱重工業",
-    "price": 2874.5,
+    "price": 2912.5,
     "shares": 100,
-    "amount_yen": 287450,
-    "model_score": 0.6526,
+    "amount_yen": 291250,
+    "model_score": 0.7528,
     "model_threshold": 0.6411,
     "expected_net_pct": -0.1666,
-    "reference_stop_price": 2831.4,
+    "reference_stop_price": 2868.8,
     "reference_stop_pct": 1.5,
     "time_window": "翌営業日09:00以降に再判定"
   },
