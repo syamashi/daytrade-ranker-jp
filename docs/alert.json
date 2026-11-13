@@ -1,24 +1,24 @@
 {
   "announce": false,
-  "title": "取引なし 11/13 15:24",
+  "title": "取引なし 11/13 20:24",
   "body": "通知条件を満たしていません。\n\n- 学習・検証・未使用テストの合格条件を満たしていません\n- コスト控除後の検証期待値 -0.108% が通知閾値 0.10% 未満です\n- 東証の連続取引時間外です",
-  "generated_at": "2026-11-13 15:24 JST",
+  "generated_at": "2026-11-13 20:24 JST",
   "reasons": [
     "学習・検証・未使用テストの合格条件を満たしていません",
     "コスト控除後の検証期待値 -0.108% が通知閾値 0.10% 未満です",
     "東証の連続取引時間外です"
   ],
   "candidate": {
-    "code": "8766",
-    "name": "東京海上ホールディングス",
-    "price": 597.5,
+    "code": "7011",
+    "name": "三菱重工業",
+    "price": 2920.5,
     "shares": 100,
-    "amount_yen": 59750,
-    "model_score": 0.8015,
+    "amount_yen": 292050,
+    "model_score": 0.6711,
     "model_threshold": 0.6539,
     "expected_net_pct": -0.1076,
-    "reference_stop_price": 593.3,
-    "reference_stop_pct": 0.7,
+    "reference_stop_price": 2876.7,
+    "reference_stop_pct": 1.5,
     "time_window": "翌営業日09:00以降に再判定"
   },
   "policy": {
